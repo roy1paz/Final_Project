@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<state xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\MedLab\TakEntities\1600\16.10.xsd" id="1166" name="V03AE02_ORAL_state" concept-type="state">
+	<categories />
+	<standard-terms />
+	<synonyms />
+	<temporal-semantic downward-hereditary="true" forward="true" backward="true" solid="true" concatenable="true" gestalt="true" />
+	<clippers />
+	<derived-from>
+		<derived-from-id>167</derived-from-id>
+	</derived-from>
+	<abstraction-at-contexts />
+	<mapping-function>
+		<mapping-functions-to-values>
+			<mapping-function-2-value order="0" value="level2">
+				<evaluation-tree data-type="comparison-function">
+					<comparison-function comparison-operator="bigger-equal">
+						<left data-type="concept-id-allowed-values">
+							<concept-id-allowed-values id="167" />
+						</left>
+						<right data-type="double">
+							<double>1600000.0</double>
+						</right>
+					</comparison-function>
+				</evaluation-tree>
+			</mapping-function-2-value>
+			<mapping-function-2-value order="1" value="level1">
+				<evaluation-tree data-type="comparison-function">
+					<comparison-function comparison-operator="smaller-equal">
+						<left data-type="concept-id-allowed-values">
+							<concept-id-allowed-values id="167" />
+						</left>
+						<right data-type="double">
+							<double>24000.0</double>
+						</right>
+					</comparison-function>
+				</evaluation-tree>
+			</mapping-function-2-value>
+		</mapping-functions-to-values>
+	</mapping-function>
+	<ordinal-allowed-values output-type="ordinal">
+		<persistence>
+			<global-persistence granularity="second">
+				<interpolation-table>
+					<rows />
+				</interpolation-table>
+			</global-persistence>
+			<local-persistence>
+				<good-before value="0" granularity="second" />
+				<good-after value="0" granularity="second" />
+			</local-persistence>
+		</persistence>
+		<values>
+			<ordinal-allowed-value order="0" value="level2" />
+			<ordinal-allowed-value order="1" value="level1" />
+		</values>
+	</ordinal-allowed-values>
+</state>

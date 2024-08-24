@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<state xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\MedLab\TakEntities\1600\16.10.xsd" id="30001" name="B01A_ORAL_state" concept-type="state">
+	<categories />
+	<standard-terms />
+	<synonyms />
+	<temporal-semantic downward-hereditary="true" forward="true" backward="true" solid="true" concatenable="true" gestalt="true" />
+	<clippers />
+	<derived-from>
+		<derived-from-id>3001</derived-from-id>
+	</derived-from>
+	<abstraction-at-contexts />
+	<mapping-function>
+		<mapping-functions-to-values>
+			<mapping-function-2-value order="0" value="level5">
+				<evaluation-tree data-type="comparison-function">
+					<comparison-function comparison-operator="bigger-equal">
+						<left data-type="concept-id-allowed-values">
+							<concept-id-allowed-values id="3001" />
+						</left>
+						<right data-type="double">
+							<double>300.0</double>
+						</right>
+					</comparison-function>
+				</evaluation-tree>
+			</mapping-function-2-value>
+			<mapping-function-2-value order="1" value="level4">
+				<evaluation-tree data-type="logical-function">
+					<logical-function logical-operator="and">
+						<operands>
+							<operand data-type="comparison-function">
+								<comparison-function comparison-operator="smaller-equal">
+									<left data-type="concept-id-allowed-values">
+										<concept-id-allowed-values id="3001" />
+									</left>
+									<right data-type="double">
+										<double>250.0</double>
+									</right>
+								</comparison-function>
+							</operand>
+							<operand data-type="comparison-function">
+								<comparison-function comparison-operator="bigger-equal">
+									<left data-type="concept-id-allowed-values">
+										<concept-id-allowed-values id="3001" />
+									</left>
+									<right data-type="double">
+										<double>150.0</double>
+									</right>
+								</comparison-function>
+							</operand>
+						</operands>
+					</logical-function>
+				</evaluation-tree>
+			</mapping-function-2-value>
+			<mapping-function-2-value order="2" value="level3">
+				<evaluation-tree data-type="logical-function">
+					<logical-function logical-operator="and">
+						<operands>
+							<operand data-type="comparison-function">
+								<comparison-function comparison-operator="smaller-equal">
+									<left data-type="concept-id-allowed-values">
+										<concept-id-allowed-values id="3001" />
+									</left>
+									<right data-type="double">
+										<double>110.0</double>
+									</right>
+								</comparison-function>
+							</operand>
+							<operand data-type="comparison-function">
+								<comparison-function comparison-operator="bigger-equal">
+									<left data-type="concept-id-allowed-values">
+										<concept-id-allowed-values id="3001" />
+									</left>
+									<right data-type="double">
+										<double>90.0</double>
+									</right>
+								</comparison-function>
+							</operand>
+						</operands>
+					</logical-function>
+				</evaluation-tree>
+			</mapping-function-2-value>
+			<mapping-function-2-value order="3" value="level2">
+				<evaluation-tree data-type="logical-function">
+					<logical-function logical-operator="and">
+						<operands>
+							<operand data-type="comparison-function">
+								<comparison-function comparison-operator="smaller-equal">
+									<left data-type="concept-id-allowed-values">
+										<concept-id-allowed-values id="3001" />
+									</left>
+									<right data-type="double">
+										<double>85.0</double>
+									</right>
+								</comparison-function>
+							</operand>
+							<operand data-type="comparison-function">
+								<comparison-function comparison-operator="bigger-equal">
+									<left data-type="concept-id-allowed-values">
+										<concept-id-allowed-values id="3001" />
+									</left>
+									<right data-type="double">
+										<double>37.5</double>
+									</right>
+								</comparison-function>
+							</operand>
+						</operands>
+					</logical-function>
+				</evaluation-tree>
+			</mapping-function-2-value>
+			<mapping-function-2-value order="4" value="level1">
+				<evaluation-tree data-type="comparison-function">
+					<comparison-function comparison-operator="smaller-equal">
+						<left data-type="concept-id-allowed-values">
+							<concept-id-allowed-values id="3001" />
+						</left>
+						<right data-type="double">
+							<double>32.5</double>
+						</right>
+					</comparison-function>
+				</evaluation-tree>
+			</mapping-function-2-value>
+		</mapping-functions-to-values>
+	</mapping-function>
+	<ordinal-allowed-values output-type="ordinal">
+		<persistence>
+			<global-persistence granularity="second">
+				<interpolation-table>
+					<rows />
+				</interpolation-table>
+			</global-persistence>
+			<local-persistence>
+				<good-before value="0" granularity="second" />
+				<good-after value="0" granularity="second" />
+			</local-persistence>
+		</persistence>
+		<values>
+			<ordinal-allowed-value order="0" value="level5" />
+			<ordinal-allowed-value order="1" value="level4" />
+			<ordinal-allowed-value order="2" value="level3" />
+			<ordinal-allowed-value order="3" value="level2" />
+			<ordinal-allowed-value order="4" value="level1" />
+		</values>
+	</ordinal-allowed-values>
+</state>
